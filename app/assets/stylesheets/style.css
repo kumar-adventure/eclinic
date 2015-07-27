@@ -1,0 +1,211 @@
+/*
+Theme Name: eClinic
+Theme URI: http://eclinic.com/
+Description: The eClinic WordPress theme that graced version 1.5 based on the famous <a href="http://eclinic.com/">eClinic</a>.
+Version: 1.7.2
+Author: eClinic
+Author URI: http://eclinic.com/
+Tags: blue, silver, white, two-columns, fixed-width, right-sidebar, fixed-width, custom-header, threaded-comments, sticky-post, rtl-language-support, translation-ready
+Text Domain: kubrick
+*/
+
+/* ### general ### */
+* { margin: 0px; padding: 0px; }
+html, body { font-family: "Helvetica Neue", arial,sans-serif; font-size: 14px; color: #4C4C4C; }
+input, select, textarea { font-family: arial; font-size: 14px; }
+body { background: #fff url('bg.gif') repeat-x; }
+body.innerbg { background: #fff url('images/inner-bg.gif') repeat-x; }
+img { border: 0px; }
+:focus { outline: none; }
+
+/* ### global classes ### */
+.clear { clear: both; height: 1px; }
+
+/* ### wrapper ### */
+#wrapper { width: 100%; height: auto; min-height: 100%; float: left; }
+
+  /* ### main container ### */
+  #mainCntr { margin: 0 auto; width: 975px; }
+  
+    /* ### header container ### */
+    #headerCntr { width: 975px; height: 136px; float: left; position: relative; }
+    #headerCntr h1 { padding: 40px 0 0 0; width: 190px; height: 100px; float: left; }
+    #headerCntr h1 a { width: 137px; height: 83px; display: block; text-indent: -9999px; background: url('logo.jpg') no-repeat; }
+    #headerCntr a.signup { margin: 15px 0 10px 0; padding: 8px 10px; color: #2C580D; float: right; font-size: 12px;font-weight: bold; line-height: 1em; text-decoration: none; border-radius: 6px 6px 6px 6px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #A7D280; }
+    
+    .headerLogin { position: absolute; top: 5px; right: 147px; }
+    .headerLogin .headerLog { float: right; }
+    .headerLogin h2 { padding: 15px 15px 0 0; font-size: 13px; float: left; text-transform: uppercase; }
+    .headerLogin form { float: left; }
+    .headerLogin form p { padding: 10px 10px 0 0; float: left; }
+    .headerLogin form label { display: none; padding-bottom: 2px; font-size: 12px; color: #999999; }
+    .headerLogin form .login-remember { display: none; }
+    .headerLogin form input.input { border: 0px; color: #9D9691; font-size: 12px; padding: 5px 8px; width: 120px; border-radius: 5px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); border-bottom: 1px solid #eaeaea!important; background: #fff; }
+    .headerLogin form input#wp-submit { cursor: pointer; border: 0px; color: #2C580D; float: left; font-size: 13px;font-weight: bold; line-height: 1em; padding: 4px 10px; text-decoration: none; border-radius: 6px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #A7D280; }
+    .headerLogin a { color: #367F00; text-decoration: none; }
+    .headerLogin a:hover { text-decoration: underline; }
+    .headerLogin ul { padding: 20px 15px 0 0; float: left; list-style: none; }
+    .headerLogin ul li { float: left; }
+    
+      /* ### menu area ### */
+      .menuArea { padding: 90px 0 0 0; width: 520px; height: 46px; float: left; }
+      .menuArea ul { list-style: none; }
+      .menuArea ul li { display: inline; font-size: 1.2em; padding: 0 5px; }
+      .menuArea ul li a { margin-left: 10px; padding: 6px; color: #1F4766; font-weight: bold; line-height: 1em; text-decoration: none; border-radius: 6px 6px 6px 6px; background: #fff; }
+      .menuArea ul li a:hover,.menuArea ul li.current_page_item a { text-decoration: none; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #76B3DB; }
+      
+      /* ### search area ### */
+      .searchArea { position: absolute; bottom: 20px; right: 0; }
+      .searchArea input { border: 0px; color: #9D9691; font-size: 1em; padding: 9px 9px 9px 25px; width: 213px; border-radius: 6px 6px 6px 6px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: url("images/bg-search.gif") no-repeat #E1E1E1; }
+      
+    /* ### middle container ### */
+    #middleCntr { width: 975px; float: left; }
+      
+      /* ### titleBar ### */
+      .titleBar { padding: 50px 0 0 0; width: 975px; height: 125px; float: left; position: relative; }
+      .titleBar h2 { padding-right: 20px; margin: 0; height: 88px; text-indent: -9999em; width: 755px; background: url("speakforyourhealth.gif") no-repeat left top; }
+      .titleBar img { position: absolute; right: 25px; top: -13px; }
+      
+      /* ### video area ### */
+      .videoArea { padding: 44px 0 0 0; width: 975px; height: 348px; overflow: hidden; float: left; }
+      .videoArea .random { width: 975px; height: 348px; overflow: hidden; float: left; }
+      .videoArea .video { width: 500px; float: left; }
+      .videoArea .video-description { float: right; width: 420px; }
+      .videoArea h2 { color: #386381; font-size: 1em; line-height: 1.4em; text-transform: uppercase; }
+      .videoArea h3 { margin: 0 0 10px 0; padding: 0 0 20px; border-bottom: 1px solid #88B8D9; font-size: 2.6em; font-weight: normal; line-height: 1em; }
+      .videoArea h4 { padding: 15px 0 0 0; color: #386381; font-size: 0.8em; line-height: 1.4em; text-transform: uppercase; }
+      .videoArea p { padding: 15px 0 0 0; }
+      .videoArea .bttn { margin: 0 10px 0 0; padding: 6px; float: left; color: #1F4766; font-weight: bold; line-height: 1em; text-decoration: none; border-radius: 6px 6px 6px 6px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #CFDFEB; }
+      .videoArea .bttn:hover { text-decoration: none; background: #fff; }
+    
+      /* ### video area ### */
+      .socialArea { padding: 30px 0 0 0; width: 975px; float: left; }
+      .socialArea #twitter { float: left; margin: 0 40px 0 0; width: 480px; }
+      .socialArea #twitter h2 { height: 19px; text-indent: -999em; width: 74px; background: url("images/twitter.gif") no-repeat; }
+      .socialArea #facebook { float: left; margin: 0 0 0 20px; width: 420px; }
+      .socialArea #facebook h2 { height: 19px; text-indent: -999em; width: 106px; background: url("images/facebook.gif") no-repeat; }
+      .socialArea ul { padding: 15px 0 0 0; list-style: none; }
+      .socialArea ul li { padding: 3px 0; border-bottom: 1px solid #B6B6B6; }
+      .socialArea p { padding: 10px 0; }
+      .socialArea a { color: #367F00; text-decoration: none; }
+      .socialArea a:hover { text-decoration: underline; }
+      .socialArea .bttn { margin: 0 10px 0 0; padding: 6px; float: right; color: #1F4766; font-weight: bold; line-height: 1em; text-decoration: none; border-radius: 6px 6px 6px 6px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #ACCADF; }
+      .socialArea .bttn:hover { text-decoration: none; background: #76B3DB; }
+      
+      /* ### title area ### */
+      .titleArea { width: 975px; height: 100px; float: left; }
+      .titleArea h2 { padding: 25px 0 0 0; font-size: 47px; color: #fff; font-weight: normal; letter-spacing: -1px; }
+      
+      /* ### left panel ### */
+      #leftPanel { padding: 30px 0 0 0; float: left; width: 680px; }
+      
+        /* ### content box ### */
+        .contentBox { float: left; width: 680px; line-height: 1.5em; }
+        .contentBox h2 { padding: 4px 0; color: #367F00; font-size: 28px; font-weight: normal; }
+        .contentBox h3 { padding: 15px 0 5px 0; color: #367F00; font-size: 28px; font-weight: normal; }
+        .contentBox p { padding: 15px 0; }
+        .contentBox table { padding: 0 0 15px 0; }
+        .contentBox td { padding: 10px 0 0 0; }
+        .contentBox ul,.contentBox ol { padding: 0 0 10px 20px; }
+        .contentBox a { color: #367F00; text-decoration: none; }
+        .contentBox a:hover { text-decoration: underline; }
+        .contentBox .field { padding: 5px 10px; width: 300px; }
+        .contentBox input.signup { border: 0px; color: #fff; cursor: pointer; font-size: 14px;font-weight: bold; line-height: 1em; margin: 10px 0; padding: 8px 10px; text-decoration: none; border-radius: 6px 6px 6px 6px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #55a127; }
+        
+        /* ### posts box ### */
+        .postsBox { float: left; width: 680px; }
+        .postsBox .post { border-bottom: 1px solid #CCCCCC; margin: 0 0 2em; line-height: 18px; }
+        .postsBox h2 { padding: 4px 0; color: #367F00; font-size: 28px; line-height: normal; }
+        .postsBox h3 { padding: 15px 0 5px 0; color: #367F00; font-size: 28px; line-height: normal; }
+        .postsBox p { padding: 15px 0 0 0; }
+        .postsBox blockquote { border-left: 5px solid #CCCCCC; color: #777777; margin: 15px 30px 0 10px; padding-left: 20px; }
+        .postsBox p.postmetadata { font-size: 10px; text-transform: uppercase; }
+        .postsBox p.postmetadata span { color: #367F00; }
+        .postsBox a { color: #367F00; text-decoration: none; }
+        .postsBox a:hover { text-decoration: underline; }
+        
+        /* ### physicians listing ### */
+        .physiciansListing { float: left; width: 680px; line-height: 1.5em; }
+        .physiciansListing ul { width: 100%; float: left; list-style: none; }
+        .physiciansListing li { padding: 20px 0; overflow: hidden; border-bottom: 1px solid #dbd9d6; }
+        .physiciansListing li.user1 { display: none!important; }
+        .physiciansListing .image { padding: 7px 0 0 0; width: 113px; float: left; }
+        .physiciansListing .image img { width: 90px; height: 64px; border: 1px solid #4e4237; }
+        .physiciansListing .info { width: 567px; float: left; }
+        .physiciansListing h3 { color: #367F00; font-size: 18px; font-weight: normal; text-transform: capitalize; }
+        .physiciansListing p { padding: 5px 0; }
+        .physiciansListing a { color: #367F00; text-decoration: none; }
+        .physiciansListing a:hover {  color: #000; text-decoration: underline; }
+        
+        .physiciansListing .pagitop { width: 100%; float: left; border-bottom: 1px solid #dbd9d6; }
+        .physiciansListing .page_navigation { padding: 10px 0; float: right; }
+        .physiciansListing .page_navigation a { padding: 2px 5px; margin: 0 1px; float: left; font-size: 11px; line-height: 12px; }
+        .physiciansListing .page_navigation a:hover,.physiciansListing .page_navigation a.active_page { color: #fff; text-decoration: none; background: #7cc049; }
+      
+      /* ### right panel ### */
+      #rightPanel { padding: 30px 0 0 0; float: right; width: 240px; }
+        
+        /* ### right area ### */
+        .rightArea { float: left; width: 240px; line-height: 1.5em; }
+        .rightArea .widget { padding: 13px 0; float: left; width: 240px; }
+        .rightArea h3 { padding: 0 0 10px 0; font-size: 18px; font-weight: normal; text-transform: lowercase; }
+        .rightArea ul { list-style: none; }
+        .rightArea a { color: #367F00; font-weight: bold; text-decoration: none; }
+        .rightArea a:hover { text-decoration: underline; }
+        .rightArea .widget_rss ul { display: none; }
+        .rightArea li.cat-item-1,.rightArea li.cat-item-7 { display: none; }
+      
+      /* ### prof left ### */
+      .profLeft { padding: 30px 0 0 0; width: 420px; float: left; line-height: 20px; }
+      .profLeft h2 { padding: 20px 0 0 0; color: #367F00; font-size: 28px; font-weight: normal; line-height: 30px; }
+      .profLeft h3 { padding: 10px 0 0 0; margin-top: 20px; font-size: 14px; border-top: 1px solid #DBD9D6; }
+      .profLeft p { padding: 15px 0 0 0; }
+      .profLeft ul,.profLeft ol { padding: 15px 0 0 20px; }
+      .profLeft a { color: #367F00; text-decoration: none; }
+      .profLeft a:hover { text-decoration: underline; }
+      
+      /* ### prof right ### */
+      .profRight { padding: 30px 0 0 0; width: 500px; float: right; }
+      .profRight h3 { padding: 20px 0 10px 0; font-size: 17px; color: #000; }
+      .profRight a { color: #367F00; text-decoration: none; }
+      .profRight a:hover { text-decoration: underline; }
+      
+    /* ### author detail ### */
+    .authorDetail { padding: 30px 0 0 0; float: left; width: 975px; font-size: 12px; }
+    .authorDetail h2 { padding: 20px 0 15px 0; color: #367F00; font-size: 28px; font-weight: normal; line-height: 30px; }
+    .authorDetail h4 { padding: 15px 0 0 0; margin-top: 15px; font-size: 14px; color: #000; border-top: 1px solid #dbd9d6; }
+    .authorDetail h3 { padding: 0 0 8px 0; font-size: 18px; }
+    .authorDetail hr { margin: 20px 0 0 0; height: 1px; border: 0px; background: #dbd9d6; }
+    .authorDetail p { padding: 15px 0 0 0; }
+    .authorDetail .leftDetail { float: left; width: 420px; }
+    .authorDetail .leftDetail img { border: 1px solid #342b24; }
+    .authorDetail .rightDetail { float: right; width: 500px; }
+    .authorDetail .rightDetail .rightvideo { width: 500px; height: 305px; overflow: hidden; margin-bottom: 25px; }
+    .authorDetail a { color: #367F00; text-decoration: none; }
+    .authorDetail a:hover { color: #000; text-decoration: underline; }
+        
+      /* ### author posts ### */
+      .authorPosts { padding: 30px 0 0 0; }
+      .authorPosts h5 { padding: 0 0 10px 0; color: #367F00; font-size: 25px; border-bottom: 1px solid #DBD9D6; }
+      .authorPosts .authorpostlist { padding: 10px 0; border-bottom: 1px solid #DBD9D6; }
+      .authorPosts h6 { padding: 0 0 5px 0; font-size: 14px; color: #367F00; line-height: 18px; }
+      .authorPosts small { color: #566F80; font-size: 11px; text-transform: uppercase; }
+    
+  /* ### footer container ### */
+  #footerCntr { padding: 30px 0 10px 0; width: 975px; float: left; }
+  
+    /* ### footer box ### */
+    .footerBox { width: 975px; float: left; color: #888; font-size: 13px; }
+    .footerBox p { float: left; }
+    .footerBox ul { float: right; list-style: none; }
+    .footerBox ul li { padding-left: 25px; float: left; }
+    .footerBox a { color: #888; text-decoration: none; }
+    .footerBox a:hover { text-decoration: underline; }
+    
+/* Begin Images */
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; }
+.alignleft { float: left; }
+/* End Images */

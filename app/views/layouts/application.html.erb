@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>eClinic</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body class="home page page-id-2 page-template page-template-frontpage-php">
+    <!-- wrapper start -->
+    <div id="wrapper">
+      <!-- main container start -->
+      <div id="mainCntr">
+        <%= render partial: 'shared/header' %>
+        <%= yield %>
+        <%= render partial: 'shared/footer' %>
+      </div>
+      <!-- main container end -->
+    </div>
+    <!-- wrapper end -->
+  </body>
+</html>

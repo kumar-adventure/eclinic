@@ -14,7 +14,7 @@ Text Domain: kubrick
 html, body { font-family: "Helvetica Neue", arial,sans-serif; font-size: 14px; color: #4C4C4C; }
 input, select, textarea { font-family: arial; font-size: 14px; }
 body { background: #fff url('bg.gif') repeat-x; }
-body.innerbg { background: #fff url('images/inner-bg.gif') repeat-x; }
+body.innerbg { background: #fff url('inner-bg.gif') repeat-x; }
 img { border: 0px; }
 :focus { outline: none; }
 

@@ -10,4 +10,14 @@ class HomeController < ApplicationController
   
   def terms
   end
+  
+  def planning
+  end
+  
+  def experiment
+  end
+  
+  def tracking
+  end
+  
 end

@@ -63,7 +63,16 @@ img { border: 0px; }
       
       /* ### titleBar ### */
       .titleBar { padding: 50px 0 0 0; width: 975px; height: 125px; float: left; position: relative; }
-      .titleBar h2 { padding-right: 20px; margin: 0; height: 88px; text-indent: -9999em; width: 755px; background: url("speakforyourhealth.gif") no-repeat left top; }
+      .titleBar h2 { 
+        //padding-right: 20px; margin: 0; height: 88px; 
+        text-indent: 1em; 
+        //width: 755px;
+        font-size: 26px;
+        color:#fff;   
+      
+        //background: url("speakforyourhealth.gif") no-repeat left top;
+      
+       }
       .titleBar img { position: absolute; right: 25px; top: -13px; }
       
       /* ### video area ### */

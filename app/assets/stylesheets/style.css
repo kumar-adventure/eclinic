@@ -62,12 +62,16 @@ img { border: 0px; }
     #middleCntr { width: 975px; float: left; }
       
       /* ### titleBar ### */
-      .titleBar { padding: 50px 0 0 0; width: 975px; height: 125px; float: left; position: relative; }
+      .titleBar { padding: 25px 0 0 0; width: 975px; height: 125px; float: left; position: relative; }
+      .titleBar h1{
+        font-size: 60px;
+        color: #fff;
+      }
       .titleBar h2 { 
         //padding-right: 20px; margin: 0; height: 88px; 
-        text-indent: 1em; 
+        //text-indent: 1em; 
         //width: 755px;
-        font-size: 26px;
+        font-size: 20px;
         color:#fff;   
       
         //background: url("speakforyourhealth.gif") no-repeat left top;
@@ -76,8 +80,8 @@ img { border: 0px; }
       .titleBar img { position: absolute; right: 25px; top: -13px; }
       
       /* ### video area ### */
-      .videoArea { padding: 44px 0 0 0; width: 975px; height: 348px; overflow: hidden; float: left; }
-      .videoArea .random { width: 975px; height: 348px; overflow: hidden; float: left; }
+      .videoArea { padding: 44px 0 44px 0; width: 975px; height: auto; overflow: hidden; float: left; }
+      .videoArea .random { width: 975px; overflow: hidden; float: left; }
       .videoArea .video { width: 500px; float: left; }
       .videoArea .video-description { float: right; width: 420px; }
       .videoArea h2 { color: #386381; font-size: 1em; line-height: 1.4em; text-transform: uppercase; }
@@ -103,7 +107,7 @@ img { border: 0px; }
       
       /* ### title area ### */
       .titleArea { width: 975px; height: 100px; float: left; }
-      .titleArea h2 { padding: 25px 0 0 0; font-size: 47px; color: #fff; font-weight: normal; letter-spacing: -1px; }
+      .titleArea h2 { padding: 0 0 0 0; font-size: 47px; color: #fff; font-weight: normal; letter-spacing: -1px; }
       
       /* ### left panel ### */
       #leftPanel { padding: 30px 0 0 0; float: left; width: 680px; }
@@ -201,10 +205,10 @@ img { border: 0px; }
       .authorPosts small { color: #566F80; font-size: 11px; text-transform: uppercase; }
     
   /* ### footer container ### */
-  #footerCntr { padding: 30px 0 10px 0; width: 975px; float: left; }
+  #footerCntr { padding: 30px 0 10px 0; width: 975px; float: left; margin-top:150px; }
   
     /* ### footer box ### */
-    .footerBox { width: 975px; float: left; color: #888; font-size: 13px; }
+    .footerBox { width: 975px; float: left; color: #888; font-size: 13px; vertical-align: bottom;}
     .footerBox p { float: left; }
     .footerBox ul { float: right; list-style: none; }
     .footerBox ul li { padding-left: 25px; float: left; }
@@ -218,3 +222,13 @@ img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
 .alignright { float: right; }
 .alignleft { float: left; }
 /* End Images */
+
+.experiment-table{
+  width: 100%;
+}
+.experiment-table td{
+  border: 2px #000 solid;
+}
+tr.table-row-height{
+  height:35px;
+}

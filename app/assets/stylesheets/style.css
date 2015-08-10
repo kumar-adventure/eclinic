@@ -30,7 +30,7 @@ img { border: 0px; }
     /* ### header container ### */
     #headerCntr { width: 975px; height: 136px; float: left; position: relative; }
     #headerCntr h1 { padding: 40px 0 0 0; width: 190px; height: 100px; float: left; }
-    #headerCntr h1 a { width: 137px; height: 83px; display: block; text-indent: -9999px; background: url('logo.jpg') no-repeat; }
+    #headerCntr h1 a { width: 137px; height: 80px; display: block; text-indent: -9999px; background: url('logo.jpg') no-repeat; }
     #headerCntr a.signup { margin: 15px 0 10px 0; padding: 8px 10px; color: #2C580D; float: right; font-size: 12px;font-weight: bold; line-height: 1em; text-decoration: none; border-radius: 6px 6px 6px 6px; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #A7D280; }
     
     .headerLogin { position: absolute; top: 5px; right: 147px; }

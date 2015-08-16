@@ -51,8 +51,8 @@ img { border: 0px; }
       .menuArea { padding: 90px 0 0 0; width: 520px; height: 46px; float: left; }
       .menuArea ul { list-style: none; }
       .menuArea ul li { display: inline; font-size: 1.2em; padding: 0 5px; }
-      .menuArea ul li a { margin-left: 10px; padding: 6px; color: #1F4766; font-weight: bold; line-height: 1em; text-decoration: none; border-radius: 6px 6px 6px 6px; background: #fff; }
-      .menuArea ul li a:hover,.menuArea ul li.current_page_item a { text-decoration: none; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); background: #76B3DB; }
+      .menuArea ul li a { margin-left: 10px; padding: 6px; font-weight: bold; line-height: 1em; text-decoration: none; border-radius: 6px 6px 6px 6px; background: #A7D280; color: #2C580D; }
+      .menuArea ul li a:hover,.menuArea ul li.current_page_item a { text-decoration: none; box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); }
       
       /* ### search area ### */
       .searchArea { position: absolute; bottom: 20px; right: 0; }
